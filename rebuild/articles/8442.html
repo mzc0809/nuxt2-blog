@@ -1,6 +1,6 @@
 <h3><sup class="fake-head" id="id-%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA"></sup><a class="header-link" href="#id-%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA"><p>效果展示</p></a></h3>
 <p>  最近用 <a target="_blank" href="https://www.electronjs.org/">electron</a> 做了一个应用，用于在树莓派小屏上显示一些实时信息。主要是想学习使用 <code>electron</code>。涉及到的工具：<code>electron</code>, <code>vue3</code>, <code>vite</code>, <code>flask</code>, <code>websocket</code>。
-  这是实际效果，买的树莓派屏幕很烂<img src="/sticker/aru/27.png?ran=1645671751593" alt="sticker">：
+  这是实际效果，买的树莓派屏幕很烂<img src="/sticker/aru/27.png?ran=1647912592832" alt="sticker">：
 <span class="image-container"><img data-viewer="" alt="截图" title="截图" style="width: 60% !important;" src="https://s4.ax1x.com/2022/02/24/biVFd1.gif"><small class="desc">截图</small></span>
 <span class="image-container"><img data-viewer="" alt="实机" title="实机" style="width: 60% !important;" src="https://s4.ax1x.com/2022/02/24/biVEi6.jpg"><small class="desc">实机</small></span></p>
 <h3><sup class="fake-head" id="id-%E5%88%B6%E4%BD%9C%E8%BF%87%E7%A8%8B"></sup><a class="header-link" href="#id-%E5%88%B6%E4%BD%9C%E8%BF%87%E7%A8%8B"><p>制作过程</p></a></h3>
@@ -23,6 +23,6 @@
 <ul>
 <li>cpu 和 ram 信息使用 <a target="_blank" href="https://pypi.org/project/pyembedded/">pyembedded</a> 获取，websocket 传输，1 秒更新一次。</li>
 <li>天气查询用的<a target="_blank" href="https://open.caiyunapp.com/">彩云 api</a>，5 分钟更新一次。</li>
-<li>待办事项还是用的 github api，我专门用 react 写了一个网页 <a target="_blank" href="https://info.halberd.cn/">https://info.halberd.cn/</a> 去更新待办，树莓派每间隔一分钟获取一次最新待办，其实这里可以用 github action，配合 frp 打洞（我有一台云服务器），实现更新待办后自动触发树莓派更新，不用轮询，就放个 todo 在那后面做吧<img src="/sticker/aru/39.png?ran=1645671751593" alt="sticker">。</li>
+<li>待办事项还是用的 github api，我专门用 react 写了一个网页 <a target="_blank" href="https://info.halberd.cn/">https://info.halberd.cn/</a> 去更新待办，树莓派每间隔一分钟获取一次最新待办，其实这里可以用 github action，配合 frp 打洞（我有一台云服务器），实现更新待办后自动触发树莓派更新，不用轮询，就放个 todo 在那后面做吧<img src="/sticker/aru/39.png?ran=1647912592832" alt="sticker">。</li>
 <li>Todo list 是用 <a target="_blank" href="https://cryptojs.gitbook.io/docs/">cryptojs</a> 加密的，虽然存在 github 上，但无需担心泄露。</li>
 </ul>
